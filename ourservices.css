@@ -55,6 +55,7 @@ header {
   padding: 5px 0 0 20px;
   width: 80px;
   height: 60px;
+  border-radius: 50%;
 }
 
 .intro__nav {
@@ -74,7 +75,8 @@ nav a:hover {
 
 h1 {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
+  text-shadow: 1px 1px 2px goldenrod, 0 0 25px grey, 0 0 5px rgb(85, 59, 59);
 }
 
 .main__p1 {
@@ -84,6 +86,10 @@ h1 {
   margin-bottom: 70px;
 }
 
+.main {
+  margin-left: 40px;
+  margin-right: 40px;
+}
 .container1 {
   display: flex;
   justify-content: space-between;
@@ -91,21 +97,93 @@ h1 {
 
 .container1__txt {
   text-align: center;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .container2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.container2__txt {
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.container3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container3__txt {
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.container4 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.container4__txt {
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/*.container3 {
+  display: block;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+*/
+
+/*.container4 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 70px;
+}
+*/
+.container5 {
   display: flex;
   justify-content: space-between;
   text-align: center;
   margin-top: 70px;
 }
 
+.container6 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.container6__txt {
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 footer {
+  background-color: rgb(119, 92, 23);
+}
+
+.footer__txt {
   text-align: center;
   padding: 3px;
   background-color: rgb(119, 92, 23);
-  color: white;
-  margin-top: 70px;
+  color: rgb(14, 8, 8);
 }
 
 .footer__icons {
